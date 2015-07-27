@@ -1,0 +1,102 @@
+{
+  levelId: 0,
+  levelName: "Wake Up!",
+  events: [
+	{
+	  time: 1,
+	  type: "story",
+	  title: "Hey,",
+	  content: "wake up...",
+	  subContent:"[Ending Hibernation]",
+	  life: 5,
+	},
+    {
+      time: 2,
+      type: "neutral",
+      enemyType: 0,
+      animation: 0
+    },
+	{
+	  time: 6,
+	  type: "story",
+	  content: "I can't see.",
+	  subContent:"[Sensors Off-line]",
+	  life: 4
+	},
+	{
+	  time: 10,
+	  type: "story",
+	  content: "Please wake up.",
+	  subContent:"I'm scared."
+	  life: 3
+	},
+	{
+	  time: 50,
+	  type: "story",
+	  content: "Are you okay? Did you make friends?",
+	  life: 3
+	},
+	{
+	  time: 115,
+	  type: "story",
+	  content: "I can see now. We're alone again, aren't we?",
+	  subContent:"[Sensors On-line]",
+	  life: 5
+	},
+	{
+	  time: 120,
+	  type: "story",
+	  content: "Well then, sleep tight.",
+	  subContent:"[Starting Hibernation]",
+	  life: 5
+	},
+    {
+      time: 125,
+      type: "endGame"
+    },
+	{
+      time: 10,
+      type: "enemy",
+      enemyType: 0,
+      animation: 0
+    },
+    {
+      time: 11,
+      type: "enemy",
+      subType: 0,
+      animation: 0
+    },
+    {
+      time: 13,
+      type: "neutral",
+      texture: 1,
+      position: 3
+    },
+    
+    {
+      time: 15,
+      type: "neutral",
+      texture: 0,
+      position: 5
+    },
+    {
+      time: 0,
+      type: "enemy",
+      enemyType: 0,
+      animation: 0
+    },
+    {
+      time: 1,
+      type: "neutral",
+      texture: 0,
+      position: 0
+    },
+    {
+      time: 2,
+      type: "story",
+      title: "",
+      content:"",
+      subContent:""
+    }
+  ]
+}
